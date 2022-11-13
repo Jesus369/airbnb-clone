@@ -9,7 +9,7 @@ import MediumCard from "../components/MediumCard"
 import LargeCard from "../components/LargeCard"
 import Footer from "../components/Footer"
 
-const Home: NextPage = ({ exploreData, cardsData }) => {
+function Home ({ exploreData, cardsData }) {
 
   return (
     <div className="">
